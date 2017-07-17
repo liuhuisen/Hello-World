@@ -1,18 +1,13 @@
 #include <stdio.h>//printf()
 #include <stdlib.h>//calloc()
-#include <string.h>//strlen()
+#include <string.h>//strlen(),strcpy()
 
 void * str_duplicate(char * str)
 {
 	char * str_copy=calloc(strlen(str)+1,sizeof(char));
 	if (NULL!=str_copy)
 	{
-		char *p=str_copy;
-		while ('\0'!=*str)
-		{
-			*p++=*str++;
-		}
-		*p='\0';
+		strcpy(str_copy,str);
 	}
 	return str_copy;
 }
