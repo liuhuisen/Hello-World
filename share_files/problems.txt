@@ -1,0 +1,37 @@
+WARN
+1.找不到深度摄像头的额矫正文件： Camera calibration file /home/ubuntu/.ros/camera_info/depth_Astra_Orbbec.yaml not found
+分析：当前摄像头的准确度比较高，用gmapping建出的图和现实环境比较接近，这个警告影响不大。
+
+2. 运行代价地图之前base_footprint和map之间的转换不可用，并提升tf错误：Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: . canTransform returned after 0.104104 timeout was 0.1
+分析：
+解决办法：
+方案一：同步PC间的时间，并且用相关工具（tf_frames,tf_echo）检查转换是否存在。
+参考网站：https://answers.ros.org/question/195175/waiting-on-transform-from-base_footprint-to-map-to-become-available-before-running-costmap-tf-error/
+结果：
+
+3.清除代价地图使机器人重新进入不阻塞状态： Clearing costmap to unstuck robot (3.000000m)
+分析：此警告信息是在clear_costmap_recovery模块中输出的。机器人当前处于阻塞状态，机器人尝试清除以自己为中心的3米长的正方形范围内的局部代价地图和全局代价地图。（查看了源码）
+
+4.机器人开始自己尝试恢复行为：Rotate recovery behavior started
+分析：
+
+5.Costmap2DROS转换超时：Costmap2DROS transform timeout. Current time: 1506606000.2886, global_pose stamp: 1506605999.7767, tolerance: 0.500
+分析：
+
+6.无法获取机器人位姿，取消位姿重配置：Could not get robot pose, cancelling pose reconfiguratio
+分析：
+
+7.无法获取机器人的起始位姿，无法规划全局路径：Unable to get starting pose of robot, unable to create global plan
+分析：
+解决办法：
+方案一：增大全局代价地图和局部代价地图的transform_tolerance的值（global_costmap_params.yaml和local_costmap_params.yaml文件中）
+参考网站：https://answers.ros.org/question/58796/move_base-warning-unable-to-get-starting-pose-of-robot-unable-to-create-global-plan/
+结果：
+
+方案二：改变全局代价地图中publish_frequency的值（为5.0）
+参考网站：https://answers.ros.org/question/76132/global-costmap-empty/
+结果：
+
+8.局部规划器规划路径失败：DWA planner failed to produce path
+分析：
+
