@@ -1,0 +1,3 @@
+https://answers.ros.org/question/226231/is-there-a-local-planner-for-car-like-motions-dwa-planner-struggles-on-paths-end/
+
+https://answers.ros.org/question/243245/error-in-move-base-aborting-because-the-robot-appears-to-be-oscillating-over-and-over-even-after-executing-all-recovery-behaviors/
