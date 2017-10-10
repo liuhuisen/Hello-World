@@ -1,0 +1,783 @@
+[ INFO] [1506605807.514814935]: Starting depth stream.
+[ INFO] [1506605807.648154096]: using default calibration URL
+[ INFO] [1506605807.653020517]: camera calibration URL: file:///home/ubuntu/.ros/camera_info/depth_Astra_Orbbec.yaml
+[ INFO] [1506605807.657134366]: Unable to open camera calibration file [/home/ubuntu/.ros/camera_info/depth_Astra_Orbbec.yaml]
+[ WARN] [1506605807.658820672]: Camera calibration file /home/ubuntu/.ros/camera_info/depth_Astra_Orbbec.yaml not found.
+[ WARN] [1506605808.600403667]: Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: . canTransform returned after 0.104104 timeout was 0.1.
+[ WARN] [1506605813.603955906]: Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: . canTransform returned after 0.10269 timeout was 0.1.
+[ WARN] [1506605818.616733912]: Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: . canTransform returned after 0.101794 timeout was 0.1.
+[ WARN] [1506605823.635923668]: Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: . canTransform returned after 0.101894 timeout was 0.1.
+[ WARN] [1506605828.648683717]: Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: . canTransform returned after 0.101111 timeout was 0.1.
+[ INFO] [1506605829.706000191]: Using plugin "static_layer"
+[ INFO] [1506605829.876553075]: Requesting the map...
+[ INFO] [1506605830.101139766]: Resizing costmap to 544 X 512 at 0.050000 m/pix
+[ INFO] [1506605830.199308276]: Received a 544 X 512 map at 0.050000 m/pix
+[ INFO] [1506605830.241224580]: Using plugin "obstacle_layer"
+[ INFO] [1506605830.277407872]:     Subscribed to Topics: scan bump
+[ INFO] [1506605830.843720882]: Using plugin "inflation_layer"
+[ INFO] [1506605831.497339680]: Using plugin "obstacle_layer"
+[ INFO] [1506605831.615190499]:     Subscribed to Topics: scan bump
+[ INFO] [1506605831.932119424]: Using plugin "inflation_layer"
+[ INFO] [1506605832.407941056]: Created local_planner dwa_local_planner/DWAPlannerROS
+[ INFO] [1506605832.434536209]: Sim period is set to 0.20
+[ INFO] [1506605833.608288427]: Recovery behavior will clear layer obstacles
+[ INFO] [1506605833.758052108]: Recovery behavior will clear layer obstacles
+[ INFO] [1506605834.017112921]: odom received!
+[ INFO] [1506605875.806991620]: Got new plan
+[ INFO] [1506605876.807110903]: Got new plan
+[ INFO] [1506605877.806966429]: Got new plan
+[ INFO] [1506605878.807179438]: Got new plan
+[ INFO] [1506605879.807005277]: Got new plan
+[ INFO] [1506605880.806840356]: Got new plan
+[ INFO] [1506605881.806873757]: Got new plan
+[ INFO] [1506605882.807526473]: Got new plan
+[ INFO] [1506605883.806886035]: Got new plan
+[ INFO] [1506605884.806927829]: Got new plan
+[ INFO] [1506605885.806864118]: Got new plan
+[ INFO] [1506605886.806870650]: Got new plan
+[ INFO] [1506605887.806902175]: Got new plan
+[ INFO] [1506605888.806877445]: Got new plan
+[ INFO] [1506605889.807126622]: Got new plan
+[ INFO] [1506605890.807158881]: Got new plan
+[ INFO] [1506605891.807091887]: Got new plan
+[ INFO] [1506605892.806870308]: Got new plan
+[ INFO] [1506605893.807080718]: Got new plan
+[ INFO] [1506605894.806999879]: Got new plan
+[ INFO] [1506605895.806959119]: Got new plan
+[ INFO] [1506605896.806860023]: Got new plan
+[ INFO] [1506605897.806849673]: Got new plan
+[ INFO] [1506605898.806935401]: Got new plan
+[ INFO] [1506605899.807163208]: Got new plan
+[ INFO] [1506605900.807401679]: Got new plan
+[ WARN] [1506605901.607162044]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506605901.806869326]: Got new plan
+[ INFO] [1506605902.806945544]: Got new plan
+[ INFO] [1506605903.806913679]: Got new plan
+[ INFO] [1506605904.806908228]: Got new plan
+[ INFO] [1506605905.806989608]: Got new plan
+[ INFO] [1506605906.806936237]: Got new plan
+[ INFO] [1506605907.806840116]: Got new plan
+[ INFO] [1506605908.807011322]: Got new plan
+[ INFO] [1506605909.806853365]: Got new plan
+[ INFO] [1506605910.806930570]: Got new plan
+[ INFO] [1506605911.806826776]: Got new plan
+[ WARN] [1506605912.007332792]: Rotate recovery behavior started.
+[ INFO] [1506605922.516906476]: Got new plan
+[ INFO] [1506605922.716728668]: Got new plan
+[ INFO] [1506605923.716762862]: Got new plan
+[ INFO] [1506605924.717512961]: Got new plan
+[ INFO] [1506605925.716876081]: Got new plan
+[ INFO] [1506605926.716904190]: Got new plan
+[ INFO] [1506605927.716749385]: Got new plan
+[ INFO] [1506605928.716858242]: Got new plan
+[ INFO] [1506605929.717438758]: Got new plan
+[ INFO] [1506605930.717158454]: Got new plan
+[ INFO] [1506605931.716748151]: Got new plan
+[ INFO] [1506605932.716711843]: Got new plan
+[ INFO] [1506605933.716929029]: Got new plan
+[ INFO] [1506605934.716918803]: Got new plan
+[ INFO] [1506605935.718961543]: Got new plan
+[ INFO] [1506605936.716732519]: Got new plan
+[ INFO] [1506605937.716963454]: Got new plan
+[ INFO] [1506605938.716861395]: Got new plan
+[ INFO] [1506605939.716836084]: Got new plan
+[ INFO] [1506605940.716934354]: Got new plan
+[ INFO] [1506605941.716963792]: Got new plan
+[ WARN] [1506605942.117274996]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506605942.517037375]: Got new plan
+[ INFO] [1506605943.518098380]: Got new plan
+[ INFO] [1506605944.516857088]: Got new plan
+[ INFO] [1506605945.516994773]: Got new plan
+[ INFO] [1506605946.516736548]: Got new plan
+[ INFO] [1506605947.516873567]: Got new plan
+[ INFO] [1506605948.517497661]: Got new plan
+[ INFO] [1506605949.516725361]: Got new plan
+[ INFO] [1506605950.517002377]: Got new plan
+[ INFO] [1506605951.516849067]: Got new plan
+[ INFO] [1506605952.516759339]: Got new plan
+[ INFO] [1506605953.516888607]: Got new plan
+[ INFO] [1506605954.516705047]: Got new plan
+[ INFO] [1506605955.517171226]: Got new plan
+[ INFO] [1506605956.516873167]: Got new plan
+[ INFO] [1506605957.516747523]: Got new plan
+[ WARN] [1506605957.716903791]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506605958.116862583]: Got new plan
+[ INFO] [1506605959.116898519]: Got new plan
+[ INFO] [1506605960.116881456]: Got new plan
+[ INFO] [1506605961.116835060]: Got new plan
+[ INFO] [1506605962.116751664]: Got new plan
+[ INFO] [1506605963.117064512]: Got new plan
+[ INFO] [1506605964.117015366]: Got new plan
+[ INFO] [1506605965.117182216]: Got new plan
+[ INFO] [1506605966.117039071]: Got new plan
+[ INFO] [1506605967.116774679]: Got new plan
+[ INFO] [1506605968.117142025]: Got new plan
+[ INFO] [1506605969.116743801]: Got new plan
+[ INFO] [1506605970.116827403]: Got new plan
+[ INFO] [1506605971.117129167]: Got new plan
+[ INFO] [1506605972.117354850]: Got new plan
+[ INFO] [1506605973.116739379]: Got new plan
+[ WARN] [1506605973.917347035]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506605974.117036144]: Got new plan
+[ INFO] [1506605975.116769667]: Got new plan
+[ INFO] [1506605976.116719021]: Got new plan
+[ INFO] [1506605977.116743873]: Got new plan
+[ INFO] [1506605978.117031554]: Got new plan
+[ INFO] [1506605979.116914742]: Got new plan
+[ INFO] [1506605980.116844846]: Got new plan
+[ INFO] [1506605981.116890698]: Got new plan
+[ INFO] [1506605982.116982382]: Got new plan
+[ INFO] [1506605983.116722072]: Got new plan
+[ INFO] [1506605984.116950421]: Got new plan
+[ WARN] [1506605984.316914359]: Rotate recovery behavior started.
+[ INFO] [1506605989.069053957]: Got new plan
+[ INFO] [1506605989.269237391]: Got new plan
+[ INFO] [1506605990.269300826]: Got new plan
+[ INFO] [1506605991.269144847]: Got new plan
+[ INFO] [1506605992.269355696]: Got new plan
+[ INFO] [1506605993.269481797]: Got new plan
+[ INFO] [1506605994.269144071]: Got new plan
+[ INFO] [1506605995.269430253]: Got new plan
+[ INFO] [1506605996.269386356]: Got new plan
+[ INFO] [1506605997.269479790]: Got new plan
+[ INFO] [1506605998.269893969]: Got new plan
+[ INFO] [1506605999.269451162]: Got new plan
+[ WARN] [1506605999.470078672]: Clearing costmap to unstuck robot (1.840000m).
+[ INFO] [1506605999.869354058]: Got new plan
+[ WARN] [1506606000.289566189]: Costmap2DROS transform timeout. Current time: 1506606000.2886, global_pose stamp: 1506605999.7767, tolerance: 0.5000
+[ WARN] [1506606000.295369762]: Could not get robot pose, cancelling pose reconfiguration
+[ INFO] [1506606000.869169580]: Got new plan
+[ INFO] [1506606001.869176266]: Got new plan
+[ INFO] [1506606002.869282950]: Got new plan
+[ INFO] [1506606003.869755211]: Got new plan
+[ INFO] [1506606004.869594900]: Got new plan
+[ INFO] [1506606005.869150843]: Got new plan
+[ INFO] [1506606006.869443357]: Got new plan
+
+
+
+
+
+
+[ WARN] [1506779513.211565669]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779513.411753045]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779513.611168512]: Unable to get starting pose of robot, unable to create global plan
+增大transform_tolerance的值
+https://answers.ros.org/question/58796/move_base-warning-unable-to-get-starting-pose-of-robot-unable-to-create-global-plan/
+
+改变global_costmap的publish_frequency的值（5.0）
+https://answers.ros.org/question/76132/global-costmap-empty/
+
+[ INFO] [1506779514.011117601]: Got new plan
+[ INFO] [1506779515.011006496]: Got new plan
+[ INFO] [1506779516.011946134]: Got new plan
+[ INFO] [1506779517.011337125]: Got new plan
+[ INFO] [1506779518.011409109]: Got new plan
+[ INFO] [1506779519.011981152]: Got new plan
+[ INFO] [1506779520.011235965]: Got new plan
+[ WARN] [1506779520.811523393]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506779521.011306357]: Got new plan
+[ INFO] [1506779522.011538754]: Got new plan
+[ INFO] [1506779523.011432075]: Got new plan
+[ INFO] [1506779524.011182320]: Got new plan
+[ INFO] [1506779525.011020819]: Got new plan
+[ INFO] [1506779526.011216569]: Got new plan
+[ INFO] [1506779527.011189410]: Got new plan
+[ INFO] [1506779528.011218422]: Got new plan
+[ INFO] [1506779529.011095274]: Got new plan
+[ INFO] [1506779530.011221295]: Got new plan
+[ INFO] [1506779531.011164740]: Got new plan
+[ INFO] [1506779532.011596850]: Got new plan
+[ INFO] [1506779533.011158225]: Got new plan
+[ INFO] [1506779534.011297265]: Got new plan
+[ INFO] [1506779535.011381560]: Got new plan
+[ INFO] [1506779536.011413027]: Got new plan
+[ INFO] [1506779537.011485498]: Got new plan
+[ INFO] [1506779538.011362560]: Got new plan
+[ INFO] [1506779539.011285958]: Got new plan
+[ INFO] [1506779540.011512858]: Got new plan
+[ INFO] [1506779541.011026271]: Got new plan
+[ INFO] [1506779542.011054265]: Got new plan
+[ INFO] [1506779543.011227679]: Got new plan
+[ INFO] [1506779544.011408680]: Got new plan
+[ INFO] [1506779545.011126441]: Got new plan
+[ WARN] [1506779545.611321563]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506779546.011111621]: Got new plan
+[ INFO] [1506779547.011398551]: Got new plan
+[ INFO] [1506779548.011108241]: Got new plan
+[ INFO] [1506779549.011486679]: Got new plan
+[ INFO] [1506779550.011120795]: Got new plan
+[ INFO] [1506779551.011152161]: Got new plan
+[ INFO] [1506779552.011153949]: Got new plan
+[ INFO] [1506779553.010988909]: Got new plan
+[ INFO] [1506779554.011015621]: Got new plan
+[ INFO] [1506779555.011199002]: Got new plan
+[ INFO] [1506779556.010997974]: Got new plan
+[ WARN] [1506779556.211031719]: Rotate recovery behavior started.
+[ INFO] [1506779560.713226863]: Got new plan
+[ INFO] [1506779560.913698856]: Got new plan
+[ INFO] [1506779561.913474268]: Got new plan
+[ INFO] [1506779562.913381850]: Got new plan
+[ INFO] [1506779563.913642931]: Got new plan
+[ INFO] [1506779564.913580686]: Got new plan
+[ WARN] [1506779565.325128814]: DWA planner failed to produce path.
+[ INFO] [1506779565.513330944]: Got new plan
+[ WARN] [1506779565.524708487]: DWA planner failed to produce path.
+[ INFO] [1506779565.713411611]: Got new plan
+[ INFO] [1506779566.713597620]: Got new plan
+[ WARN] [1506779566.821941531]: Costmap2DROS transform timeout. Current time: 1506779566.8215, global_pose stamp: 1506779566.2457, tolerance: 0.5000
+[ WARN] [1506779566.825804823]: Could not get robot pose, cancelling pose reconfiguration
+[ERROR] [1506779566.913708038]: Could not get robot pose
+[ERROR] [1506779566.914033535]: Could not get robot pose
+[ WARN] [1506779566.914488446]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779567.113751124]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779567.313635795]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779567.513935295]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779567.714387960]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779567.837313963]: Costmap2DROS transform timeout. Current time: 1506779567.8370, global_pose stamp: 1506779566.2457, tolerance: 0.5000
+[ WARN] [1506779567.837634626]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506779567.913600638]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779568.113632558]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779568.314732800]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779568.514034478]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779568.713631486]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779568.842469593]: Costmap2DROS transform timeout. Current time: 1506779568.8421, global_pose stamp: 1506779566.8928, tolerance: 0.5000
+[ WARN] [1506779568.843673080]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506779568.913816905]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779569.113538829]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779569.314004162]: Unable to get starting pose of robot, unable to create global plan
+[ INFO] [1506779569.713550509]: Got new plan
+[ INFO] [1506779570.713604867]: Got new plan
+[ WARN] [1506779570.913501957]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506779571.313398803]: Got new plan
+[ INFO] [1506779572.313615165]: Got new plan
+[ INFO] [1506779573.313681699]: Got new plan
+[ INFO] [1506779574.313582322]: Got new plan
+[ INFO] [1506779575.313887610]: Got new plan
+[ INFO] [1506779576.317633448]: Got new plan
+[ INFO] [1506779577.313435292]: Got new plan
+[ INFO] [1506779578.313678341]: Got new plan
+[ INFO] [1506779579.313351149]: Got new plan
+[ WARN] [1506779579.913448349]: Costmap2DROS transform timeout. Current time: 1506779579.9132, global_pose stamp: 1506779579.4007, tolerance: 0.5000
+[ERROR] [1506779579.913762512]: Could not get robot pose
+[ERROR] [1506779579.913982760]: Could not get robot pose
+[ WARN] [1506779579.914382256]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779579.921288098]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506779580.113592859]: Unable to get starting pose of robot, unable to create global plan
+[ INFO] [1506779580.515129200]: Got new plan
+[ WARN] [1506779581.313379685]: Rotate recovery behavior started.
+[ WARN] [1506779584.113923119]: Costmap2DROS transform timeout. Current time: 1506779584.1136, global_pose stamp: 1506779583.5861, tolerance: 0.5000
+[ WARN] [1506779584.121553120]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506779584.318606417]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779585.114034358]: Costmap2DROS transform timeout. Current time: 1506779585.1138, global_pose stamp: 1506779583.5861, tolerance: 0.5000
+[ WARN] [1506779585.137605855]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506779585.324433845]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779586.130372343]: Costmap2DROS transform timeout. Current time: 1506779586.1300, global_pose stamp: 1506779584.2959, tolerance: 0.5000
+[ WARN] [1506779586.224887743]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506779586.325074249]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779587.144421439]: Costmap2DROS transform timeout. Current time: 1506779587.1442, global_pose stamp: 1506779584.2959, tolerance: 0.5000
+[ WARN] [1506779587.236842362]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506779587.332350918]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779588.165716126]: Costmap2DROS transform timeout. Current time: 1506779588.1649, global_pose stamp: 1506779587.3859, tolerance: 0.5000
+[ INFO] [1506779588.166089372]: Got new plan
+[ WARN] [1506779588.166501201]: Unable to get starting pose of robot, unable to create global plan
+[ INFO] [1506779588.565078001]: Got new plan
+[ INFO] [1506779589.565483167]: Got new plan
+[ WARN] [1506779590.281339644]: Costmap2DROS transform timeout. Current time: 1506779590.2811, global_pose stamp: 1506779589.7628, tolerance: 0.5000
+[ INFO] [1506779590.565192261]: Got new plan
+[ INFO] [1506779591.565354770]: Got new plan
+[ INFO] [1506779592.565233785]: Got new plan
+[ INFO] [1506779593.565368216]: Got new plan
+[ INFO] [1506779594.565057739]: Got new plan
+[ INFO] [1506779595.565273509]: Got new plan
+[ INFO] [1506779596.565342116]: Got new plan
+[ INFO] [1506779597.565417310]: Got new plan
+[ INFO] [1506779598.565457174]: Got new plan
+[ WARN] [1506779598.766819099]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506779599.165597576]: Got new plan
+[ INFO] [1506779600.165527778]: Got new plan
+[ INFO] [1506779601.165057488]: Got new plan
+[ INFO] [1506779602.165324527]: Got new plan
+[ WARN] [1506779602.421547117]: Costmap2DROS transform timeout. Current time: 1506779602.4212, global_pose stamp: 1506779601.8949, tolerance: 0.5000
+[ WARN] [1506779602.422026195]: Could not get robot pose, cancelling pose reconfiguration
+[ERROR] [1506779602.565379243]: Could not get robot pose
+[ERROR] [1506779602.565700073]: Could not get robot pose
+[ WARN] [1506779602.566214234]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779602.765793764]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779602.965504626]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506779603.165630650]: Unable to get starting pose of robot, unable to create global plan
+[ INFO] [1506779603.565285122]: Got new plan
+[ WARN] [1506779603.785307517]: DWA planner failed to produce path.
+[ INFO] [1506779603.965343007]: Got new plan
+[ INFO] [1506779604.965608719]: Got new plan
+[ INFO] [1506779605.965329274]: Got new plan
+[ WARN] [1506779606.195575811]: DWA planner failed to produce path.
+[ INFO] [1506779606.366457650]: Got new plan
+[ WARN] [1506779606.382502812]: DWA planner failed to produce path.
+[ INFO] [1506779606.565294357]: Got new plan
+[ WARN] [1506779606.600898309]: DWA planner failed to produce path.
+[ INFO] [1506779606.765186802]: Got new plan
+[ WARN] [1506779606.793845995]: DWA planner failed to produce path.
+[ INFO] [1506779606.965163580]: Got new plan
+[ WARN] [1506779606.984814036]: DWA planner failed to produce path.
+[ INFO] [1506779607.165073608]: Got new plan
+[ WARN] [1506779607.175072835]: DWA planner failed to produce path.
+[ INFO] [1506779607.365066303]: Got new plan
+[ WARN] [1506779607.374431203]: DWA planner failed to produce path.
+[ INFO] [1506779607.565052081]: Got new plan
+[ WARN] [1506779607.779978117]: DWA planner failed to produce path.
+[ INFO] [1506779607.965149970]: Got new plan
+[ WARN] [1506779607.982509034]: DWA planner failed to produce path.
+[ INFO] [1506779608.165313580]: Got new plan
+[ WARN] [1506779608.182328065]: DWA planner failed to produce path.
+[ INFO] [1506779608.365450607]: Got new plan
+[ WARN] [1506779608.391572744]: DWA planner failed to produce path.
+[ INFO] [1506779608.565311387]: Got new plan
+[ WARN] [1506779608.585653253]: DWA planner failed to produce path.
+[ INFO] [1506779608.765301832]: Got new plan
+[ WARN] [1506779608.787773009]: DWA planner failed to produce path.
+[ INFO] [1506779608.965225778]: Got new plan
+[ WARN] [1506779608.980447366]: DWA planner failed to produce path.
+[ INFO] [1506779609.165446722]: Got new plan
+[ WARN] [1506779609.190865200]: DWA planner failed to produce path.
+[ INFO] [1506779609.365087755]: Got new plan
+[ WARN] [1506779609.375611725]: DWA planner failed to produce path.
+[ INFO] [1506779609.565550695]: Got new plan
+[ WARN] [1506779609.588010455]: DWA planner failed to produce path.
+[ INFO] [1506779609.765158645]: Got new plan
+[ WARN] [1506779609.790479791]: DWA planner failed to produce path.
+[ INFO] [1506779609.965291173]: Got new plan
+[ WARN] [1506779609.987216772]: DWA planner failed to produce path.
+[ INFO] [1506779610.165380951]: Got new plan
+[ WARN] [1506779610.184960492]: DWA planner failed to produce path.
+[ INFO] [1506779610.365314648]: Got new plan
+[ WARN] [1506779610.422366039]: DWA planner failed to produce path.
+[ INFO] [1506779610.565197429]: Got new plan
+[ WARN] [1506779610.582818574]: DWA planner failed to produce path.
+[ WARN] [1506779610.765305291]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506779611.165161269]: Got new plan
+[ WARN] [1506779611.188038024]: DWA planner failed to produce path.
+[ WARN] [1506779611.365486046]: Rotate recovery behavior started.
+[ INFO] [1506779611.765379524]: Got new plan
+[ WARN] [1506779611.793705471]: DWA planner failed to produce path.
+[ WARN] [1506779611.965227139]: Clearing costmap to unstuck robot (1.840000m).
+[ INFO] [1506779612.365717778]: Got new plan
+[ WARN] [1506779612.389863103]: DWA planner failed to produce path.
+[ WARN] [1506779612.565691225]: Rotate recovery behavior started.
+[ INFO] [1506779612.965118876]: Got new plan
+[ WARN] [1506779612.978815480]: DWA planner failed to produce path.
+[ERROR] [1506779613.165403154]: Aborting because a valid control could not be found. Even after executing all recovery behaviors
+[ WARN] [1506779615.283053296]: Costmap2DROS transform timeout. Current time: 1506779615.2812, global_pose stamp: 1506779614.7640, tolerance: 0.5000
+[ WARN] [1506779615.321416554]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506779616.305957797]: Costmap2DROS transform timeout. Current time: 1506779616.3057, global_pose stamp: 1506779614.7640, tolerance: 0.5000
+[ WARN] [1506779616.323086947]: Could not get robot pose, cancelling pose reconfiguration
+
+
+
+
+
+
+[ INFO] [1506780163.641618562]: Starting depth stream.
+[ INFO] [1506780163.757751230]: using default calibration URL
+[ INFO] [1506780163.766777645]: camera calibration URL: file:///home/ubuntu/.ros/camera_info/depth_Astra_Orbbec.yaml
+[ INFO] [1506780163.772101629]: Unable to open camera calibration file [/home/ubuntu/.ros/camera_info/depth_Astra_Orbbec.yaml]
+[ WARN] [1506780163.777217367]: Camera calibration file /home/ubuntu/.ros/camera_info/depth_Astra_Orbbec.yaml not found.
+[ WARN] [1506780166.410436234]: Timed out waiting for transform from base_footprint to map to become available before running costmap, tf error: . canTransform returned after 0.101656 timeout was 0.1.
+[ INFO] [1506780168.185662567]: Using plugin "static_layer"
+[ INFO] [1506780168.392054322]: Requesting the map...
+[ INFO] [1506780168.611892104]: Resizing costmap to 544 X 512 at 0.050000 m/pix
+[ INFO] [1506780168.710874635]: Received a 544 X 512 map at 0.050000 m/pix
+[ INFO] [1506780168.756186386]: Using plugin "obstacle_layer"
+[ INFO] [1506780168.782763446]:     Subscribed to Topics: scan bump
+[ INFO] [1506780169.226824267]: Using plugin "inflation_layer"
+[ WARN] [1506780169.546022601]: Costmap2DROS transform timeout. Current time: 1506780169.5454, global_pose stamp: 1506780168.4987, tolerance: 0.5000
+[ INFO] [1506780169.906812678]: Using plugin "obstacle_layer"
+[ INFO] [1506780170.100086333]:     Subscribed to Topics: scan bump
+[ INFO] [1506780170.593569173]: Using plugin "inflation_layer"
+[ WARN] [1506780170.961902248]: Costmap2DROS transform timeout. Current time: 1506780170.9614, global_pose stamp: 1506780169.2005, tolerance: 0.5000
+[ INFO] [1506780171.157546943]: Created local_planner dwa_local_planner/DWAPlannerROS
+[ INFO] [1506780171.172102133]: Sim period is set to 0.20
+[ INFO] [1506780173.077005246]: Recovery behavior will clear layer obstacles
+[ INFO] [1506780173.244542066]: Recovery behavior will clear layer obstacles
+[ INFO] [1506780173.513876692]: odom received!
+[ WARN] [1506780196.283573648]: Costmap2DROS transform timeout. Current time: 1506780196.2833, global_pose stamp: 1506780195.7679, tolerance: 0.5000
+[ WARN] [1506780196.285542874]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780197.290234271]: Costmap2DROS transform timeout. Current time: 1506780197.2900, global_pose stamp: 1506780195.7679, tolerance: 0.5000
+[ WARN] [1506780197.295169213]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780198.309150724]: Costmap2DROS transform timeout. Current time: 1506780198.3089, global_pose stamp: 1506780196.4103, tolerance: 0.5000
+[ WARN] [1506780198.310809454]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780199.312858659]: Costmap2DROS transform timeout. Current time: 1506780199.3127, global_pose stamp: 1506780196.4103, tolerance: 0.5000
+[ WARN] [1506780199.313219155]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780200.361930447]: Costmap2DROS transform timeout. Current time: 1506780200.3616, global_pose stamp: 1506780198.4479, tolerance: 0.5000
+[ WARN] [1506780200.383410529]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780201.382945362]: Costmap2DROS transform timeout. Current time: 1506780201.3826, global_pose stamp: 1506780196.9561, tolerance: 0.5000
+[ WARN] [1506780201.384482261]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780202.383550475]: Costmap2DROS transform timeout. Current time: 1506780202.3833, global_pose stamp: 1506780196.9561, tolerance: 0.5000
+[ WARN] [1506780202.409350592]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780203.383944880]: Costmap2DROS transform timeout. Current time: 1506780203.3836, global_pose stamp: 1506780196.9561, tolerance: 0.5000
+[ WARN] [1506780203.412867296]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780204.384136909]: Costmap2DROS transform timeout. Current time: 1506780204.3838, global_pose stamp: 1506780196.9561, tolerance: 0.5000
+[ WARN] [1506780204.493425566]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780205.409465101]: Costmap2DROS transform timeout. Current time: 1506780205.4093, global_pose stamp: 1506780204.1917, tolerance: 0.5000
+[ WARN] [1506780205.517629858]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780206.483146691]: Costmap2DROS transform timeout. Current time: 1506780206.4828, global_pose stamp: 1506780196.9561, tolerance: 0.5000
+[ WARN] [1506780206.522894652]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780207.492120722]: Costmap2DROS transform timeout. Current time: 1506780207.4918, global_pose stamp: 1506780196.9561, tolerance: 0.5000
+[ WARN] [1506780207.583584093]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780208.515745865]: Costmap2DROS transform timeout. Current time: 1506780208.5154, global_pose stamp: 1506780204.1917, tolerance: 0.5000
+[ WARN] [1506780208.583521675]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780209.545700132]: Costmap2DROS transform timeout. Current time: 1506780209.5454, global_pose stamp: 1506780196.9561, tolerance: 0.5000
+[ WARN] [1506780209.609751486]: Could not get robot pose, cancelling pose reconfiguration
+[ERROR] [1506780209.983295902]: Extrapolation Error looking up robot pose: Lookup would require extrapolation into the past.  Requested time 1506780196.956068985 but the earliest data is at time 1506780204.191716909, when looking up transform from frame [base_footprint] to frame [map]
+
+[ WARN] [1506780218.585606043]: Costmap2DROS transform timeout. Current time: 1506780218.5854, global_pose stamp: 1506780218.0833, tolerance: 0.5000
+[ WARN] [1506780218.587948683]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780219.610092070]: Costmap2DROS transform timeout. Current time: 1506780219.6097, global_pose stamp: 1506780218.0833, tolerance: 0.5000
+[ WARN] [1506780219.612634458]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780220.686428281]: Costmap2DROS transform timeout. Current time: 1506780220.6859, global_pose stamp: 1506780218.7699, tolerance: 0.5000
+[ WARN] [1506780220.686895609]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780221.743892218]: Costmap2DROS transform timeout. Current time: 1506780221.7437, global_pose stamp: 1506780220.7055, tolerance: 0.5000
+[ WARN] [1506780221.744459795]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780236.683697284]: Costmap2DROS transform timeout. Current time: 1506780236.6833, global_pose stamp: 1506780236.1339, tolerance: 0.5000
+[ WARN] [1506780236.684058446]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780237.709928024]: Costmap2DROS transform timeout. Current time: 1506780237.7089, global_pose stamp: 1506780236.1339, tolerance: 0.5000
+[ WARN] [1506780237.713524151]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780252.545679170]: Costmap2DROS transform timeout. Current time: 1506780252.5454, global_pose stamp: 1506780252.0261, tolerance: 0.5000
+[ WARN] [1506780252.583134007]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780253.545716826]: Costmap2DROS transform timeout. Current time: 1506780253.5455, global_pose stamp: 1506780252.0261, tolerance: 0.5000
+[ WARN] [1506780253.583634075]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780254.561789307]: Costmap2DROS transform timeout. Current time: 1506780254.5615, global_pose stamp: 1506780252.6810, tolerance: 0.5000
+[ WARN] [1506780254.598325404]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780255.561769383]: Costmap2DROS transform timeout. Current time: 1506780255.5615, global_pose stamp: 1506780252.6810, tolerance: 0.5000
+[ WARN] [1506780255.609859603]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780256.586312856]: Costmap2DROS transform timeout. Current time: 1506780256.5862, global_pose stamp: 1506780255.8831, tolerance: 0.5000
+[ WARN] [1506780256.683269622]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780265.283303596]: Costmap2DROS transform timeout. Current time: 1506780265.2830, global_pose stamp: 1506780264.7504, tolerance: 0.5000
+[ WARN] [1506780265.283664842]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780266.283645178]: Costmap2DROS transform timeout. Current time: 1506780266.2832, global_pose stamp: 1506780264.7504, tolerance: 0.5000
+[ WARN] [1506780266.284536919]: Could not get robot pose, cancelling pose reconfiguration
+[ INFO] [1506780325.756315032]: Got new plan
+[ WARN] [1506780326.683515595]: Costmap2DROS transform timeout. Current time: 1506780326.6830, global_pose stamp: 1506780326.1670, tolerance: 0.5000
+[ WARN] [1506780326.686606311]: Could not get robot pose, cancelling pose reconfiguration
+[ INFO] [1506780326.756446377]: Got new plan
+[ INFO] [1506780327.756308641]: Got new plan
+[ INFO] [1506780328.756346237]: Got new plan
+[ INFO] [1506780329.756576248]: Got new plan
+[ INFO] [1506780330.756388597]: Got new plan
+[ INFO] [1506780331.756591524]: Got new plan
+[ INFO] [1506780332.756450372]: Got new plan
+[ INFO] [1506780333.756579884]: Got new plan
+[ INFO] [1506780334.757143057]: Got new plan
+[ INFO] [1506780335.756293997]: Got new plan
+[ WARN] [1506780335.956775544]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506780336.356591318]: Got new plan
+[ INFO] [1506780337.356429999]: Got new plan
+[ WARN] [1506780337.983596692]: Costmap2DROS transform timeout. Current time: 1506780337.9832, global_pose stamp: 1506780337.4637, tolerance: 0.5000
+[ WARN] [1506780337.984243518]: Could not get robot pose, cancelling pose reconfiguration
+[ERROR] [1506780338.156824122]: Could not get robot pose
+[ERROR] [1506780338.157212785]: Could not get robot pose
+[ WARN] [1506780338.158082692]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780338.356844008]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780338.556604647]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780338.756610449]: Unable to get starting pose of robot, unable to create global plan
+[ INFO] [1506780339.156465806]: Got new plan
+[ INFO] [1506780354.156617669]: Got new plan
+[ INFO] [1506780355.156517934]: Got new plan
+[ INFO] [1506780356.156306782]: Got new plan
+[ WARN] [1506780356.756524521]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506780357.156312379]: Got new plan
+[ INFO] [1506780358.156379225]: Got new plan
+[ INFO] [1506780359.156222323]: Got new plan
+[ WARN] [1506780359.374977086]: DWA planner failed to produce path.
+[ INFO] [1506780396.556309418]: Got new plan
+[ INFO] [1506780397.556522429]: Got new plan
+[ INFO] [1506780398.556635524]: Got new plan
+[ WARN] [1506780398.756541745]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506780399.156416768]: Got new plan
+[ INFO] [1506780400.157068357]: Got new plan
+[ INFO] [1506780401.156283046]: Got new plan
+[ INFO] [1506780402.156513723]: Got new plan
+[ INFO] [1506780403.156566736]: Got new plan
+[ INFO] [1506780404.156484834]: Got new plan
+[ INFO] [1506780405.156291516]: Got new plan
+[ INFO] [1506780406.156772274]: Got new plan
+[ INFO] [1506780407.156661371]: Got new plan
+[ INFO] [1506780408.156473220]: Got new plan
+[ INFO] [1506780409.156439150]: Got new plan
+[ INFO] [1506780410.156872492]: Got new plan
+[ INFO] [1506780411.156468510]: Got new plan
+[ INFO] [1506780412.156548022]: Got new plan
+[ WARN] [1506780412.756499681]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506780413.156457203]: Got new plan
+[ INFO] [1506780414.156695547]: Got new plan
+[ INFO] [1506780415.156521729]: Got new plan
+[ INFO] [1506780416.156418993]: Got new plan
+[ INFO] [1506780417.156588338]: Got new plan
+[ INFO] [1506780418.156296105]: Got new plan
+[ INFO] [1506780419.156530699]: Got new plan
+[ INFO] [1506780420.156467629]: Got new plan
+[ INFO] [1506780421.156484476]: Got new plan
+[ INFO] [1506780422.160575777]: Got new plan
+[ WARN] [1506780422.682821540]: Costmap2DROS transform timeout. Current time: 1506780422.6825, global_pose stamp: 1506780422.1152, tolerance: 0.5000
+[ WARN] [1506780422.683184369]: Could not get robot pose, cancelling pose reconfiguration
+[ERROR] [1506780422.756473230]: Could not get robot pose
+[ERROR] [1506780422.756796810]: Could not get robot pose
+[ WARN] [1506780422.757739717]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780422.956676198]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780423.156568001]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780423.356740219]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780423.557213100]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780423.683720793]: Costmap2DROS transform timeout. Current time: 1506780423.6835, global_pose stamp: 1506780422.1152, tolerance: 0.5000
+[ WARN] [1506780423.684199788]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780423.758450139]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780423.956789626]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780424.156471766]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780424.356427152]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780424.556554620]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780424.697006660]: Costmap2DROS transform timeout. Current time: 1506780424.6968, global_pose stamp: 1506780422.7805, tolerance: 0.5000
+[ WARN] [1506780424.697472239]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780424.756760754]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780424.956323561]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780425.156721110]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780425.356716829]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780425.556646049]: Unable to get starting pose of robot, unable to create global plan
+[ INFO] [1506780425.956773236]: Got new plan
+[ WARN] [1506780426.156593374]: Rotate recovery behavior started.
+[ INFO] [1506780426.558169879]: Got new plan
+[ INFO] [1506780427.556402412]: Got new plan
+[ INFO] [1506780428.556284593]: Got new plan
+[ WARN] [1506780428.756509810]: Costmap2DROS transform timeout. Current time: 1506780428.7562, global_pose stamp: 1506780428.2510, tolerance: 0.5000
+[ERROR] [1506780428.757111886]: Could not get robot pose
+[ERROR] [1506780428.757475882]: Could not get robot pose
+[ WARN] [1506780428.759018449]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780428.782781854]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780428.956783526]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780429.157073242]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780429.356672966]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780429.556518353]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780429.756745154]: Costmap2DROS transform timeout. Current time: 1506780429.7562, global_pose stamp: 1506780428.2510, tolerance: 0.5000
+[ WARN] [1506780429.757512062]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780429.783182530]: Could not get robot pose, cancelling pose reconfiguration
+[ INFO] [1506780430.156490678]: Got new plan
+[ INFO] [1506780431.156350777]: Got new plan
+[ INFO] [1506780432.156598620]: Got new plan
+[ INFO] [1506780433.156736466]: Got new plan
+[ INFO] [1506780434.156471315]: Got new plan
+[ WARN] [1506780434.483789636]: Costmap2DROS transform timeout. Current time: 1506780434.4835, global_pose stamp: 1506780433.9520, tolerance: 0.5000
+[ WARN] [1506780434.485364118]: Could not get robot pose, cancelling pose reconfiguration
+[ERROR] [1506780434.556369671]: Could not get robot pose
+[ERROR] [1506780434.556584086]: Could not get robot pose
+[ WARN] [1506780434.556961998]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780434.756534139]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780434.956504859]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780435.157209820]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780435.356654296]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780435.509572699]: Costmap2DROS transform timeout. Current time: 1506780435.5094, global_pose stamp: 1506780433.9520, tolerance: 0.5000
+[ WARN] [1506780435.510127193]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780435.556690181]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780435.757167479]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780435.956974367]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780436.156594507]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780436.356469144]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780436.545778814]: Costmap2DROS transform timeout. Current time: 1506780436.5454, global_pose stamp: 1506780434.7180, tolerance: 0.5000
+[ WARN] [1506780436.556570946]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780436.583688481]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780436.756613581]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780436.956551301]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780437.156489188]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780437.357331648]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780437.545881076]: Costmap2DROS transform timeout. Current time: 1506780437.5456, global_pose stamp: 1506780434.7180, tolerance: 0.5000
+[ WARN] [1506780437.558378856]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780437.593429221]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780437.760395970]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780437.956472649]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780438.156482701]: Unable to get starting pose of robot, unable to create global plan
+[ INFO] [1506780438.557021301]: Got new plan
+[ INFO] [1506780439.556341905]: Got new plan
+
+[ INFO] [1506780441.556530346]: Got new plan
+[ INFO] [1506780442.556899855]: Got new plan
+[ INFO] [1506780443.556312875]: Got new plan
+[ INFO] [1506780444.556295055]: Got new plan
+[ INFO] [1506780445.556328984]: Got new plan
+[ INFO] [1506780446.556807409]: Got new plan
+[ INFO] [1506780447.556511092]: Got new plan
+[ INFO] [1506780448.556452106]: Got new plan
+[ WARN] [1506780449.380064141]: Costmap2DROS transform timeout. Current time: 1506780449.3798, global_pose stamp: 1506780448.8665, tolerance: 0.5000
+[ WARN] [1506780449.380285388]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780449.382967692]: Could not get robot pose, cancelling pose reconfiguration
+[ERROR] [1506780449.556573035]: Could not get robot pose
+[ERROR] [1506780449.556919531]: Could not get robot pose
+[ WARN] [1506780449.557395526]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780449.757648826]: Unable to get starting pose of robot, unable to create global plan
+[ INFO] [1506780450.156477444]: Got new plan
+[ INFO] [1506780451.156348709]: Got new plan
+[ INFO] [1506780452.156398805]: Got new plan
+[ INFO] [1506780453.156448984]: Got new plan
+[ INFO] [1506780454.156508830]: Got new plan
+[ INFO] [1506780455.156297262]: Got new plan
+[ INFO] [1506780456.156741854]: Got new plan
+[ INFO] [1506780457.156283956]: Got new plan
+[ INFO] [1506780458.156590382]: Got new plan
+[ INFO] [1506780459.156404481]: Got new plan
+[ INFO] [1506780460.156315912]: Got new plan
+[ WARN] [1506780460.356979290]: Clearing costmap to unstuck robot (3.000000m).
+[ INFO] [1506780460.756531151]: Got new plan
+[ INFO] [1506780461.756459915]: Got new plan
+[ INFO] [1506780462.756267347]: Got new plan
+[ INFO] [1506780463.756255193]: Got new plan
+[ INFO] [1506780464.756456704]: Got new plan
+[ INFO] [1506780465.756477551]: Got new plan
+[ INFO] [1506780466.756263150]: Got new plan
+[ INFO] [1506780467.756666492]: Got new plan
+[ INFO] [1506780468.756329092]: Got new plan
+[ INFO] [1506780469.756491020]: Got new plan
+[ INFO] [1506780470.756570116]: Got new plan
+[ WARN] [1506780470.956607168]: Costmap2DROS transform timeout. Current time: 1506780470.9563, global_pose stamp: 1506780470.4090, tolerance: 0.5000
+[ERROR] [1506780470.957041580]: Could not get robot pose
+[ERROR] [1506780470.957295578]: Could not get robot pose
+[ WARN] [1506780470.958148068]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780470.982853380]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780471.156591721]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780471.356810605]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780471.556578910]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780471.756554463]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780471.956474350]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780471.961728042]: Costmap2DROS transform timeout. Current time: 1506780471.9615, global_pose stamp: 1506780470.4090, tolerance: 0.5000
+[ WARN] [1506780471.983385721]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780472.156602401]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780472.356485955]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780472.556466175]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780472.758535788]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780472.956696194]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780472.961872804]: Costmap2DROS transform timeout. Current time: 1506780472.9617, global_pose stamp: 1506780471.1257, tolerance: 0.5000
+[ WARN] [1506780473.009214867]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780473.156715996]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780473.356714799]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780473.556515937]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780473.756655405]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780473.956919455]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780474.003462360]: Costmap2DROS transform timeout. Current time: 1506780474.0032, global_pose stamp: 1506780471.1257, tolerance: 0.5000
+[ WARN] [1506780474.009980955]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780474.156697510]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780474.356792478]: Unable to get starting pose of robot, unable to create global plan
+[ INFO] [1506780474.756415921]: Got new plan
+[ INFO] [1506780475.756464767]: Got new plan
+[ INFO] [1506780476.756379365]: Got new plan
+[ INFO] [1506780477.756615459]: Got new plan
+
+[ INFO] [1506780482.756671524]: Got new plan
+[ WARN] [1506780482.809267613]: Costmap2DROS transform timeout. Current time: 1506780482.8091, global_pose stamp: 1506780482.2914, tolerance: 0.5000
+[ WARN] [1506780482.809471611]: Could not get robot pose, cancelling pose reconfiguration
+[ERROR] [1506780482.957701316]: Could not get robot pose
+[ERROR] [1506780482.958026729]: Could not get robot pose
+[ WARN] [1506780482.961894270]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780483.156597797]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780483.356630433]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780483.556935649]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780483.758856930]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780483.883343479]: Costmap2DROS transform timeout. Current time: 1506780483.8831, global_pose stamp: 1506780482.2914, tolerance: 0.5000
+[ WARN] [1506780483.883723892]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780483.956986587]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780484.156442979]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780484.356681445]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780484.556927912]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780484.759300439]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780484.910101698]: Costmap2DROS transform timeout. Current time: 1506780484.9099, global_pose stamp: 1506780482.9100, tolerance: 0.5000
+[ WARN] [1506780484.910686442]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780484.956588438]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780485.156604324]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780485.356543877]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780485.556759844]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780485.757135642]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780485.956736283]: Costmap2DROS transform timeout. Current time: 1506780485.9565, global_pose stamp: 1506780482.9100, tolerance: 0.5000
+[ WARN] [1506780485.957656273]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780485.982969078]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780486.156881917]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780486.356664055]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780486.571236448]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780486.756772410]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780486.956774962]: Costmap2DROS transform timeout. Current time: 1506780486.9565, global_pose stamp: 1506780483.3729, tolerance: 0.5000
+[ WARN] [1506780486.957243290]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780486.990481759]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780487.156703099]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780487.356492987]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780487.556435624]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780487.756477093]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780487.956906057]: Costmap2DROS transform timeout. Current time: 1506780487.9565, global_pose stamp: 1506780483.3729, tolerance: 0.5000
+[ WARN] [1506780487.957273803]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780488.011398292]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780488.156431699]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780488.356508167]: Clearing costmap to unstuck robot (3.000000m).
+[ERROR] [1506780488.356808830]: Cannot clear map because pose cannot be retrieved
+[ERROR] [1506780488.357011911]: Cannot clear map because pose cannot be retrieved
+[ INFO] [1506780488.756389274]: Got new plan
+[ INFO] [1506780489.756481703]: Got new plan
+[ INFO] [1506780490.756860295]: Got new plan
+[ INFO] [1506780491.756338397]: Got new plan
+[ INFO] [1506780492.756619074]: Got new plan
+[ INFO] [1506780493.756660754]: Got new plan
+[ INFO] [1506780494.756340354]: Got new plan
+[ INFO] [1506780495.756220202]: Got new plan
+[ INFO] [1506780496.756237465]: Got new plan
+[ INFO] [1506780497.756449392]: Got new plan
+[ INFO] [1506780498.756661403]: Got new plan
+[ INFO] [1506780499.756759582]: Got new plan
+[ INFO] [1506780500.756275017]: Got new plan
+[ INFO] [1506780501.756616194]: Got new plan
+[ INFO] [1506780502.756593040]: Got new plan
+[ INFO] [1506780503.756515221]: Got new plan
+[ INFO] [1506780504.756360736]: Got new plan
+[ INFO] [1506780505.756286584]: Got new plan
+[ INFO] [1506780506.756426012]: Got new plan
+[ WARN] [1506780507.109391051]: Costmap2DROS transform timeout. Current time: 1506780507.1091, global_pose stamp: 1506780506.5910, tolerance: 0.5000
+[ WARN] [1506780507.109692131]: Could not get robot pose, cancelling pose reconfiguration
+[ERROR] [1506780507.156477117]: Could not get robot pose
+[ERROR] [1506780507.156814530]: Could not get robot pose
+[ WARN] [1506780507.157586855]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780507.356835665]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780507.556610054]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780507.756646023]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780507.956549243]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780508.159818843]: Costmap2DROS transform timeout. Current time: 1506780508.1564, global_pose stamp: 1506780506.5910, tolerance: 0.5000
+[ WARN] [1506780508.160465670]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780508.183652248]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780508.356656347]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780508.556604484]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780508.756689202]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780508.959633056]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780509.156567809]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780509.161885584]: Costmap2DROS transform timeout. Current time: 1506780509.1615, global_pose stamp: 1506780507.2332, tolerance: 0.5000
+[ WARN] [1506780509.209101898]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780509.356602861]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780509.556588914]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780509.756655716]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780509.956476271]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780510.156463990]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780510.187786396]: Costmap2DROS transform timeout. Current time: 1506780510.1831, global_pose stamp: 1506780507.2332, tolerance: 0.5000
+[ WARN] [1506780510.209202244]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780510.356489542]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780510.556578844]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780510.756673646]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780510.956576449]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780511.156914082]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780511.184133533]: Costmap2DROS transform timeout. Current time: 1506780511.1837, global_pose stamp: 1506780507.6621, tolerance: 0.5000
+[ WARN] [1506780511.283495941]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780511.356764969]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780511.556743689]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780511.756935573]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780511.956644712]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780512.156776846]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780512.184329627]: Costmap2DROS transform timeout. Current time: 1506780512.1842, global_pose stamp: 1506780509.7100, tolerance: 0.5000
+[ WARN] [1506780512.319464976]: Could not get robot pose, cancelling pose reconfiguration
+[ WARN] [1506780512.356556568]: Clearing costmap to unstuck robot (3.000000m).
+[ERROR] [1506780512.356806149]: Cannot clear map because pose cannot be retrieved
+[ERROR] [1506780512.356974647]: Cannot clear map because pose cannot be retrieved
+[ WARN] [1506780512.556730452]: Unable to get starting pose of robot, unable to create global plan
+[ WARN] [1506780512.756451008]: Rotate recovery behavior started.
+[ INFO] [1506780513.156512946]: Got new plan
+[ WARN] [1506780513.483431688]: Costmap2DROS transform timeout. Current time: 1506780513.4832, global_pose stamp: 1506780512.9277, tolerance: 0.5000
+[ WARN] [1506780513.483694351]: Could not get robot pose, cancelling pose reconfiguration
+[ INFO] [1506780514.356321847]: Got new plan
+[ INFO] [1506780515.156290058]: Got new plan
+[ INFO] [1506780516.156437153]: Got new plan
